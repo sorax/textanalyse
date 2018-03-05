@@ -1,0 +1,52 @@
+html,body,h1,h2,h3,h4,h5.h6,p,ol,ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #222;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: #fefefe;
+	overflow: hidden;
+}
+
+#editor {
+	float: left;
+	height: 100%;
+	width: 80%;
+	overflow-y: auto;
+}
+
+#input {
+	padding: 1em;
+	border: none;
+	outline: none;
+}
+
+.highlight { color: #f00; font-weight: bold; }
+
+#menu {
+	float: left;
+	height: 100%;
+	width: 20%;
+	background-color: #ddd;
+	overflow-y: auto;
+}
+
+#wordlist {
+	padding: 1em;
+	list-style-type: none;
+}
+
+.keyword {}
+
+.keyword.active {
+	background-color: #f44;
+}
